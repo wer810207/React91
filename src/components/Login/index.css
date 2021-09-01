@@ -1,0 +1,63 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #999999;
+}
+
+.loginBox {
+    width: 450px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.01), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.loginTitle {
+    margin-top: 75px;
+}
+
+.accountBox {
+    margin: 40px 0 30px 0;
+}
+
+.accountBox > input {
+    height: 20px;
+}
+
+.passwordBox > input {
+    height: 20px;
+}
+
+.account {
+    margin-right: 15px;
+}
+
+.password {
+    margin-right: 15px;
+}
+
+.registerBox{
+    margin: 20px 0
+}
+
+.registerBox > span{
+    color: cornflowerblue;
+}
+
+.login > button{
+    width: 80px;
+    height: 30px;
+    background-color: #0072E3;
+    border: #0072E3;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.login > button:active{
+    background-color: #005AB5;
+}
